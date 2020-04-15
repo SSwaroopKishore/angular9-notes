@@ -24,11 +24,11 @@ export class serverComponet implements OnInit {
     @Output('svcCreated') serverCreated : EventEmitter<{name:string,content:string}> = new EventEmitter();
     constructor(){}
     ngOnInit(){}
-    onServerCreated() { //click event inputting values from textboxes
+    onServerCreated() { //click event inputting values from textboxes
         this.serverCreated.emit({
-            name: this.name,
-            content: this.content
-        })
+            name: this.name,
+            content: this.content
+        })
     }
 }
 ```
