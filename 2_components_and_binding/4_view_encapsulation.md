@@ -6,9 +6,9 @@ Angular enforces the styles added in the css files specific to a component to be
 
 ```ts
 @Component({
-    selector: …,
-    styles: …,
-    templateUrl: …,
+    selector: ...,
+    styles: ...,
+    templateUrl: ...,
     encapsulation: ViewEncapsulation.Emulated //(default) None and Native are other properties
 })
 ```
